@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+		padding:0px;
+		margin:0px;
+}
+
+#logo {
+	/* Asignamos una altura mínima */
+	min-height: 300px;
+	position: relative;
+
+	margin: auto;
+  }
+
+  #nav-Inicio{
+	float: left;
+    margin-left: 25%;
+
+	background: purple;
+	color: seashell;
+	padding: 10px 30px;
+	text-decoration: none;
+	height: 100px;
+	width: 200px;
+	text-align: unset;
+	font-size: 4ch;
+
+  }
+  #nav-Inicio:hover{
+
+	background:rgb(240, 76, 58);
+  }
+
+  #nav-Tienda{
+    float: left;
+    margin-left: 10%;
+	background: purple;
+	color: seashell;
+	padding: 10px 30px;
+	text-decoration: none;
+	height: 100px;
+	width: 200px;
+	text-align: unset;
+	font-size: 4ch;
+
+  }
+  #nav-Tienda:hover{
+
+	background:rgb(240, 76, 58);
+  }
+
+  #nav-Accesorios{
+	float: left;
+    margin-left: 10%;
+
+	background: purple;
+	color: seashell;
+	padding: 10px 30px;
+	text-decoration: none;
+	height: 100px;
+	width: 200px;
+	text-align: unset;
+	font-size: 4ch;
+
+  }
+  #nav-Accesorios:hover{
+
+	background:rgb(240, 76, 58);
+  }
+
+
+
+
+
+
+  nav{
+    /*margin-top: 50px;*/
+	background:rgb(85, 58, 240);
+  }
+  table {
+    margin: auto;
+    width:50%;
+    background: white;
+    margin-bottom: 1.25em;
+    border: solid 1px #dddddd;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  table tr th,
+  table tr td {
+    padding: 0.5625em 0.625em;
+    font-size: 0.875em;
+    color: #222222;
+    border: 1px solid #dddddd;
+  }
+  
+  table tr.even,
+  table tr.alt,
+  table tr:nth-of-type(even) {
+    background: #f9f9f9;
+  }
+
+  #redondeado {
+	/* Asignamos una altura mínima */
+	min-height: 300px;
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 400px;
+
+	border-radius: 10%;
+	overflow: hidden;
+    float: left;
+    margin-left: 10%;	
+
+  }
+  #circular {
+	/* Asignamos una altura mínima */
+
+	height: 250px;
+	width: 400px;
+    float: left;	
+    margin-left: 10%;	
+
+  }
+
+  #thum {
+	/* Asignamos una altura mínima */
+	min-height: 300px;
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 400px;
+	overflow: hidden;	
+    float: left;	
+    margin-left: 10%;	
+
+  }
